@@ -1,1 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mariadb://172.17.0.1:3306/docker_test?useUnicode=true&characterEncoding=utf8&autoReconnect=true&serverTimezone=Asia/Seoul
+    username: junglocal
+    password: hodo0927
+    driver-class-name: org.mariadb.jdbc.Driver
 
+  jpa:
+    hibernate:
+      ddl-auto: none
